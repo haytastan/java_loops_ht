@@ -50,5 +50,20 @@ public class Main {
             k++;
         }while (k<10);
 
+        //do-while loop with continue and break statement:
+        System.out.println("2 Hariç 7 ye kadar olan tüm Sayılar (do-while loop, continue, break):");
+        int m=1;
+        do{
+            if (m == 2) {
+                m++;
+                continue;
+            }
+            if (m == 8) {
+               break;
+            }
+            System.out.println("Sayı = "+m);
+            m++;
+        }while (m<10);
+
     }
 }
